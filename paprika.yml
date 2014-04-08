@@ -1,0 +1,8 @@
+repository:
+  url: "git+https://github.com/tchap/paprika-testrepo"
+script:
+  path: "scripts/loop"
+  runner: "bash"
+  env:
+    - ITERATIONS=10
+    - MESSAGE=LOOP
